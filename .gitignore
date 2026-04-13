@@ -1,0 +1,31 @@
+# Entorno virtual
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Variables de entorno (credenciales)
+.env
+.env.local
+.env.*.local
+
+# Archivos generados por Spotify DNA scripts
+spotify_features.csv
+spotify_dna.csv
+spotify_dna_profile.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+.spotify_cache
+.github
+.cache
